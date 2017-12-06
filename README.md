@@ -1,9 +1,9 @@
-# Supported tags and respective `Dockerfile` links
+# Supported tag and `Dockerfile` link
 
-- [`alpine`, `latest` _(Dockerfile)_](https://github.com/robertpeteuil/docker-compose-alpine/blob/master/Dockerfile)
+- [`latest` _(Dockerfile)_](https://github.com/robertpeteuil/docker-compose-alpine/blob/master/Dockerfile)
 
 
-# ALPINE-DOCKER-COMPOSE
+# DOCKER-COMPOSE-ALPINE
 
 Extremely small **Docker-Compose** image built with **Alpine Linux 3.6**
 
@@ -11,9 +11,9 @@ Extremely small **Docker-Compose** image built with **Alpine Linux 3.6**
 
 **Docker Hub Images**: <https://hub.docker.com/r/robpco/docker-compose-alpine/>
 
-# USAGE
+# REFERENCE
 
-The image can be pulled with:
+The image can be pulled with the command:
 
 ```shell
 docker pull robpco/docker-compose-alpine
