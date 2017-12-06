@@ -1,4 +1,4 @@
-# Supported tag and `Dockerfile` link
+# Supported tags and respective `Dockerfile` links
 
 - [`alpine` `latest` _(Dockerfile)_](https://github.com/robertpeteuil/docker-alpine-docker-compose/blob/master/Dockerfile)
 
