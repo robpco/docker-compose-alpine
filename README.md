@@ -5,11 +5,11 @@
 
 # DOCKER-COMPOSE-ALPINE
 
-Extremely small **Docker-Compose** image built with **Alpine Linux 3.6**
+Extremely small **Docker-Compose** image built with **Alpine Linux 3.6**.  It’s only 35 MB (approx.) when downloaded locally.
 
 **GitHub Repo**: <https://github.com/robertpeteuil/docker-compose-alpine>
 
-**Docker Hub Images**: <https://hub.docker.com/r/robpco/docker-compose-alpine/>
+**Docker Hub Image**: <https://hub.docker.com/r/robpco/docker-compose-alpine/>
 
 # REFERENCE
 
