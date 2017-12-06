@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-MAINTAINER Robert Peteuil <https://github.com/robertpeteuil>
+LABEL maintainer Robert Peteuil <https://github.com/robertpeteuil>
 
 ENV DOCKER_COMPOSE_VERSION 1.17.1
 
@@ -10,5 +10,4 @@ RUN apk --update add py-pip py-yaml &&\
 
 WORKDIR /app
 ENTRYPOINT ["/usr/bin/docker-compose"]
-# CMD ["--version"]
-CMD["exec", "$@"]
+CMD ["--version"]
