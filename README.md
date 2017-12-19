@@ -1,7 +1,9 @@
 # Supported tag and `Dockerfile` link
 
-- [`latest` _(Dockerfile)_](https://github.com/robertpeteuil/docker-compose-alpine/blob/master/Dockerfile)
+- [`latest`, `1.18.0` _(Dockerfile)_](https://github.com/robertpeteuil/docker-compose-alpine/blob/7f5827df56639565a2f644d1ae70adf240bb5179/Dockerfile)
+- [`1.17.1` _(Dockerfile)_](https://github.com/robertpeteuil/docker-compose-alpine/blob/a959e78571971578d2819230ec640417378562c8/Dockerfile)
 
+Tags correspond to the version of docker-compose in the image
 
 # DOCKER-COMPOSE-ALPINE
 
@@ -26,8 +28,6 @@ alias docker-compose='docker run --rm -t $(tty &>/dev/null && echo "-i") robpco/
 ```
 
 # REFERENCE
-
-This image installs docker-compose version 1.18.0 (released 2017-12-18)
 
 If you need a different version of docker-compose:
 - clone this repo locally
