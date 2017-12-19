@@ -19,7 +19,7 @@ Pull the image with:
 docker pull robpco/docker-compose-alpine
 ```
 
-Configure you system to use this image as a local command by creating an alias in .bashrc:
+Configure your system to use this image as a local command by creating an alias in .bashrc:
 
 ```shell
 alias docker-compose='docker run --rm -t $(tty &>/dev/null && echo "-i") robpco/docker-compose-alpine'
