@@ -2,7 +2,7 @@ FROM alpine:3.6
 
 LABEL maintainer Robert Peteuil <https://github.com/robertpeteuil>
 
-ENV DOCKER_COMPOSE_VERSION 1.17.1
+ENV DOCKER_COMPOSE_VERSION 1.18.0
 
 RUN apk --update add py-pip py-yaml &&\
     pip install -U docker-compose==${DOCKER_COMPOSE_VERSION} &&\
