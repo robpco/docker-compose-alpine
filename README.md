@@ -31,7 +31,7 @@ alias docker-compose='docker run --rm -t $(tty &>/dev/null && echo "-i") robpco/
 
 To use a specific version of docker-compose (that's not available via an image tag):
 - clone this repo locally
-- edit the Dockerfile and change DOCKER_COMPOSE_VERSION to the required version
+- edit the Dockerfile and set DOCKER_COMPOSE_VERSION to the required version
   - note: the version specified must be available on PyPi
-- build the new Dockerfile using any tag: `docker build -t docker-compose-alpine:${UNIQUE_VERSION} .`
-- use as described above, but using your tag in the `alias` definition
+- build your adjusted Dockerfile with a unique tag: `docker build -t docker-compose-alpine:${UNIQUE_VERSION} .`
+- use as described above, but use your unique tag when defining the `alias`
