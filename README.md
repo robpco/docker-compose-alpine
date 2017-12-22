@@ -7,7 +7,7 @@ Tags correspond to the version of docker-compose in the image
 
 # DOCKER-COMPOSE-ALPINE
 
-Extremely small **Docker-Compose** image built with **Alpine Linux 3.6**.  It’s only 35 MB (approx.) when downloaded locally.
+Extremely small **Docker-Compose** image built with **Alpine Linux 3.7** that's only 35MB when pulled locally.
 
 **GitHub Repo**: <https://github.com/robertpeteuil/docker-compose-alpine>
 
