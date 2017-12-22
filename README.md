@@ -3,7 +3,7 @@
 - [`latest`, `1.18.0` _(Dockerfile)_](https://github.com/robertpeteuil/docker-compose-alpine/blob/7f5827df56639565a2f644d1ae70adf240bb5179/Dockerfile)
 - [`1.17.1` _(Dockerfile)_](https://github.com/robertpeteuil/docker-compose-alpine/blob/a959e78571971578d2819230ec640417378562c8/Dockerfile)
 
-Tags correspond to the version of docker-compose in the image
+Tags correspond to the **docker-compose** version used in the image
 
 # DOCKER-COMPOSE-ALPINE
 
