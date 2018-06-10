@@ -6,8 +6,7 @@ services:
 variables:
   REGISTRY: "docker.io"
   REGISTRY_USER: "robpco"
-  RELEASE_TAG: "latest"
-  REGISTRY_IMAGE: "${REGISTRY}/${REGISTRY_USER}/${CI_PROJECT_NAME}:${RELEASE_TAG}"
+  REGISTRY_IMAGE: "${REGISTRY}/${REGISTRY_USER}/${CI_PROJECT_NAME}"
 
 before_script:
   - docker login -u "$REGISTRY_USER" -p "$REGISTRY_PASSWORD"
