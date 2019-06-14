@@ -1,6 +1,7 @@
 # Supported tags and `Dockerfile` links
 
-- [`latest`, `1.23.1` _(Dockerfile)_](https://github.com/robpco/docker-compose-alpine/blob/1.23.1/Dockerfile)
+- [`latest`, `1.23.2` _(Dockerfile)_](https://github.com/robpco/docker-compose-alpine/blob/1.23.2/Dockerfile)
+- [`1.23.1` _(Dockerfile)_](https://github.com/robpco/docker-compose-alpine/blob/1.23.1/Dockerfile)
 - [`1.23.0` _(Dockerfile)_](https://github.com/robpco/docker-compose-alpine/blob/1.23.0/Dockerfile)
 - [`1.22.0` _(Dockerfile)_](https://github.com/robpco/docker-compose-alpine/blob/571382f6dc1f4f99ef8398f0d935328f83bb5b05/Dockerfile)
 - [`1.21.2` _(Dockerfile)_](https://github.com/robpco/docker-compose-alpine/blob/976b72d54365fc366bfa345eec8c2c18de65634d/Dockerfile)
