@@ -1,6 +1,7 @@
 # Supported tags and `Dockerfile` links
 
-- [`latest`, `1.23.2` _(Dockerfile)_](https://github.com/robpco/docker-compose-alpine/blob/1.23.2/Dockerfile)
+- [`latest`, `1.24.0` _(Dockerfile)_](https://github.com/robpco/docker-compose-alpine/blob/1.24.0/Dockerfile)
+- [`1.23.2` _(Dockerfile)_](https://github.com/robpco/docker-compose-alpine/blob/1.23.2/Dockerfile)
 - [`1.23.1` _(Dockerfile)_](https://github.com/robpco/docker-compose-alpine/blob/1.23.1/Dockerfile)
 - [`1.23.0` _(Dockerfile)_](https://github.com/robpco/docker-compose-alpine/blob/1.23.0/Dockerfile)
 - [`1.22.0` _(Dockerfile)_](https://github.com/robpco/docker-compose-alpine/blob/571382f6dc1f4f99ef8398f0d935328f83bb5b05/Dockerfile)
@@ -13,11 +14,11 @@ Tags correspond to the **docker-compose** version used in the image
 
 ## DOCKER-COMPOSE-ALPINE
 
-Extremely small **Docker-Compose** image built with **Alpine Linux 3.7** that's only 35MB when pulled locally.
+Extremely small **Docker-Compose** image built with **Alpine:Latest** that's only 40M.
 
 **GitHub Repo**: <https://github.com/robpco/docker-compose-alpine>
 
-**Docker Hub Image**: <https://hub.docker.com/r/robpco/docker-compose-alpine/>
+**Docker Hub Image**: <https://hub.docker.com/r/robpco/docker-compose-alpine>
 
 ## USING THIS IMAGE AS LOCAL COMMAND
 
